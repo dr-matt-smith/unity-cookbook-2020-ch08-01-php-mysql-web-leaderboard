@@ -5,7 +5,7 @@
     }
   },
   "scripts":{
-    "run":"php -S localhost:8000 -t ./public",
+    "serve":"php -S localhost:8000 -t ./public",
     "dbadmin":"php -S localhost:8001 -t ./phpliteadmin"
   }
 }

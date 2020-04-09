@@ -34,11 +34,11 @@ class WebApplication
                 break;
 
             case 'list':
-                $mainController->list($format);
+                $mainController->listPlayers($format);
                 break;
 
             default:
-                $mainController->default();
+                $mainController->home();
         }
     }
 }

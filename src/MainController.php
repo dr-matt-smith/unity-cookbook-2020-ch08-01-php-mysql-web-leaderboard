@@ -11,12 +11,12 @@ class MainController
         $this->playerRepository = new PlayerRepository();
     }
 
-    public function default()
+    public function home()
     {
         require_once __DIR__ . '/../templates/homepage.php';
     }
 
-    public function list($format)
+    public function listPlayers($format)
     {
         $players = $this->playerRepository->findAll();
 
